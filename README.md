@@ -7,7 +7,7 @@ Oil & Gas companies have their compressor operations shut down by accumulated li
 It uses computational fluid dynamics to locate, quantify, and visualize the liquids present in pipelines so they can be cleared.
 I lost the GitHub account I used to build this with my Rice University student email when I graduated and reuploaded the codebase for my portfolio.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Usage](#usage)
 - [Installation](#installation)
@@ -37,9 +37,8 @@ To place a pipe, navigate to the Inset Tab and click the Pipe icon. Next, click 
 #### Global Properties and Usage:
 To set gas and ambient properties for an entire system, navigate to the Calculation Panel and click the Save System Values button. It is recommended to set system wide values before performing a pipe sizing calculation in order to get a consistent pressure differential across the system.
 
-    ```md
-    ![alt text](labeled_interface.png)
-    ```
+
+![alt text](labeled_interface.png)
 
 ### Analyzing a Model
  
@@ -50,9 +49,8 @@ To analyze a model for pressures, pipe sizes, or efficiencies, navigate to the H
 *	Pipe Size Calculation: This calculation determines pipe size based on user specified pipe pressure differentials, flow rates, and gas and ambient properties. It is most commonly used to find the most cost-efficient pipe size for a desired pressure differential when designing systems.
 *	Efficiency Calculation: This calculation determines pipe flow rate efficiency based on user specified node pressures, flow rates, and gas and ambient properties. It is most commonly used to locate potential issues such as liquid buildup in a system and to then adjust operations accordingly.
 
-    ```md
-    ![alt text](Beta Example System 2.png)
-    ```
+
+![alt text](Beta Example System 2.png)
 
 ## Installation
 
@@ -83,5 +81,5 @@ The GatherX Analytics team is not supporting, commercializing, or contributing t
 
 ## Tests
 
-Tests are in test folder and can be executed with JUnit.
+Tests are in the test folder and can be executed with JUnit.
 
