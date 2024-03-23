@@ -21,6 +21,8 @@ I lost the GitHub account I used to build this with my Rice University student e
 To build a model two different types of objects are used: nodes and pipes. Nodes abstractly represent various pieces of midstream equipment, including wells, compressors, control valves, and outlets. Pipes connect nodes and represent physical pipes of various diameter and lengths that connect this equipment. To place objects on the Canvas Panel in the center of the screen go to the Insert Tab on the top menu and select an object to begin placing.
 To edit the properties of objects in your system there are two options. The first option is to click on the object and enter the information on the right-hand Data Panel that appears when the object is selected. The second option is to use the left-hand Calculation Panel to quickly set the properties of all pipes in the system. Nodes do not hold gas and ambient data like specific gravity, base pressure, and temperature and must have their parameters set individually.
 
+![plot](./assets/images/screenshot_labeled.png)
+
 #### Node Descriptions and Usage:
 •	Inlet Node: This node can be used to represent a wellhead or other location at which gas enters the system.
 •	Outlet Node: This node can be used to represent a compressor station before sending gas to a long-distance pipeline or other location at which gas exits the system.
@@ -37,10 +39,9 @@ To place a pipe, navigate to the Inset Tab and click the Pipe icon. Next, click 
 #### Global Properties and Usage:
 To set gas and ambient properties for an entire system, navigate to the Calculation Panel and click the Save System Values button. It is recommended to set system wide values before performing a pipe sizing calculation in order to get a consistent pressure differential across the system.
 
-
-![alt text](labeled_interface.png)
-
 ### Analyzing a Model
+
+![plot](./assets/images/screenshot.png)
  
 To analyze a model for pressures, pipe sizes, or efficiencies, navigate to the Home Tab and click the New Calculation icon and then select a calculation type. Next, navigate to the Calculation Panel and enter the desired system gas and ambient properties. Please note that running a calculation or saving system values will overwrite previous user specified values. To preserve the results of a previous calculation, see the managing files section on how to save a file. Finally, press the Calculate button in the Calculation Panel.
 
@@ -49,8 +50,6 @@ To analyze a model for pressures, pipe sizes, or efficiencies, navigate to the H
 *	Pipe Size Calculation: This calculation determines pipe size based on user specified pipe pressure differentials, flow rates, and gas and ambient properties. It is most commonly used to find the most cost-efficient pipe size for a desired pressure differential when designing systems.
 *	Efficiency Calculation: This calculation determines pipe flow rate efficiency based on user specified node pressures, flow rates, and gas and ambient properties. It is most commonly used to locate potential issues such as liquid buildup in a system and to then adjust operations accordingly.
 
-
-![alt text](Beta Example System 2.png)
 
 ## Installation
 
