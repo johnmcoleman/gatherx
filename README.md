@@ -13,7 +13,7 @@ I lost the GitHub account I used to build this with my Rice University student e
 - [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
-- [How to Contribute](#how)
+- [Contribute](#contribute)
 - [Tests](#tests)
 
 ## Usage
@@ -72,7 +72,7 @@ Thank you to the creators of DAS Optimization Omer Anil Turkkan and Dr. Haijun S
 
 MIT License.
 
-## How to Contribute
+## Contribute
 
 The GatherX Analytics team is not supporting, commercializing, or contributing to this software as of August 2021. See [Contributor Covenant](https://www.contributor-covenant.org/) if you would like to make any contributions.
 
