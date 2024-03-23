@@ -13,6 +13,8 @@ I lost the GitHub account I used to build this with my Rice University student e
 - [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
+- [How to Contribute](#how)
+- [Tests](#tests)
 
 ## Usage
 
@@ -69,10 +71,6 @@ Thank you to the creators of DAS Optimization Omer Anil Turkkan and Dr. Haijun S
 ## License
 
 MIT License.
-
-## Badges
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
 
 ## How to Contribute
 
